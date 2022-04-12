@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;homeWorkDone.package-info.java&apos; to &apos;HomeWorkMain.java&apos;&#x0D;&#x0A;- Original project: &apos;HomeWork&apos;&#x0D;&#x0A;- Original element: &apos;homeWorkDone.package-info.java&apos;&#x0D;&#x0A;- Renamed element: &apos;homeWorkDone.HomeWorkMain.java&apos;" description="Rename compilation unit &apos;package-info.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;homeWorkDone{package-info.java" name="HomeWorkMain.java" references="false" stamp="1648674842987" version="1.0"/>
+</session>

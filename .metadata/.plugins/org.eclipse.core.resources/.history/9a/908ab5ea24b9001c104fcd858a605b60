@@ -1,0 +1,74 @@
+package practiceMakesPerfect;
+
+import java.util.Scanner;
+
+public class CodeLab {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		
+		Scanner stdin=new Scanner(System.in);
+//		int n=0;
+//
+//		while(stdin.hasNextInt() && n>=0) {
+//			n=stdin.nextInt();
+//			if (n>100)
+//			System.out.print(n+" ");
+//			}
+//		stdin.close();
+		
+//		int i =1;
+//
+//		int sum=0;
+//
+//
+//		while(i>0){
+//
+//			i = stdin.nextInt();
+//
+//			if(i%2==0 && i >0){
+//
+//			sum = sum + i;	
+//
+//			}
+//
+//		}
+//
+//
+//		System.out.println(sum);
+//
+
+//		int i = 1;
+//		int sumEven=0;
+//		int sumOdd=0;
+//		
+//		while(i>0) {
+//			i = stdin.nextInt();
+//			if(i%2==0 && i>0)
+//				sumEven=sumEven+i;
+//			else if (i%2 != 0 && i>0)
+//				sumOdd=sumOdd+i;
+//		}
+//		System.out.println(sumEven+" "+sumOdd);
+		
+		
+		int i = 1;
+		int sumEven = 0;
+		int sumOdd = 0;
+		int evenCounter=0;
+		int oddCounter=0;
+
+		while( i > 0 )
+			i = stdin.nextInt();
+			if( i % 2 == 0 && i > 0) {
+				sumEven+=i;
+				evenCounter++;
+			}
+			else if ( i % 2 != 0 && i > 0) {
+				sumOdd+=i;
+				oddCounter++;
+			}
+			System.out.print(sumEven+" "+sumOdd+" "+evenCounter+" "+oddCounter);
+	}
+
+}

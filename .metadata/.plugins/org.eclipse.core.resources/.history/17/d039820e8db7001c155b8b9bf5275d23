@@ -1,0 +1,29 @@
+package practiceMakesPerfect;
+
+import java.util.ArrayList;
+
+public class RanaBhi {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> intArray = new ArrayList<>();
+		intArray.add(1);
+		intArray.add(2);
+		intArray.add(3);
+		intArray.add(4);
+		intArray.add(5);
+		
+		System.out.println(intArray);
+		
+		
+		intArray.add(6);
+		intArray.add(7);
+		intArray.add(8);
+		
+		System.out.println(intArray);
+		
+		
+
+	}
+
+}

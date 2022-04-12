@@ -1,0 +1,35 @@
+package practiceMakesPerfect;
+
+public class RanaBhi6 {
+
+	public static void main(String[] args) {
+	
+		starPrinter(10);
+
+	}
+public static void starPrinter(int a) {
+	
+	for(int i=1; i<a; i++) {
+		System.out.print("***");
+		System.out.print("\n");
+		
+		int x=10;
+		long b = x;
+		
+		int c= (int) b;
+		double y =b;
+		float v=(float)y;
+		
+		boolean r=true;
+		
+		char t= 'q';
+		String myString="t";
+		
+		short tt = 10;
+		byte tb =(byte)tt;
+		
+		
+	}
+		
+}
+}

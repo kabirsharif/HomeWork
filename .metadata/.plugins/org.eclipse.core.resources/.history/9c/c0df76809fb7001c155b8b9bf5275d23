@@ -1,0 +1,14 @@
+package practiceMakesPerfect;
+
+public class RanaBhi3 {
+
+	public static void main(String[] args) {
+		
+
+	}
+public static int multiplyer(int a, int b, int c) {
+	int result = a*b*c;
+	return result;
+	
+}
+}

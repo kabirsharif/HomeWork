@@ -1,0 +1,26 @@
+package practiceMakesPerfect;
+
+import java.util.ArrayList;
+
+public class RanaBhi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String> stringArray = new ArrayList<>();
+		stringArray.add("one");
+		stringArray.add("two");
+		stringArray.add("three");
+		stringArray.add("four");
+		stringArray.add("five");
+		stringArray.add("six");
+		stringArray.add("seven");
+		stringArray.add("eight");
+		stringArray.add("nine");
+		stringArray.add("ten");
+		
+		System.out.println(stringArray);
+		
+
+	}
+
+}
